@@ -1,1 +1,14 @@
-// TODO
+.post {
+  margin-top: 3rem;
+
+  p {
+    padding: 1rem 0;
+  }
+}
+
+.loadMore {
+  color: var(--highlight);
+  background: transparent;
+  border: none;
+  margin-top: 4rem;
+}

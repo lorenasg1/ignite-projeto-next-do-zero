@@ -1,1 +1,30 @@
-// TODO
+.banner {
+  img {
+    width: 100vw;
+    height: 400px;
+
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    object-fit: cover;
+  }
+}
+
+.container {
+  margin-top: 5rem;
+
+  > div {
+    margin: 1rem 0;
+  }
+
+  h2 {
+    margin: 3rem 0 2rem 0;
+  }
+
+  p {
+    padding: 1rem 0;
+    line-height: 1.5rem;
+  }
+}
